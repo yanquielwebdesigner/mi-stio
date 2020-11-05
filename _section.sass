@@ -1,0 +1,108 @@
+//Iconos-nosotros
+
+.iconos-nosotros
+        display: flex
+        justify-content: space-between
+
+.icono
+        flex-basis: calc(33,3% - 1rem)
+        text-align: center
+
+.icono
+        h3
+                text-transform: uppercase
+
+
+// Contacto HOME
+
+.imagen-contacto
+        background-image: url(../img/encuentra.jpg)
+        background-position: center center
+        background-size: cover
+        height: 40rem
+        display: flex
+        align-items: center
+
+.contenido-contacto
+        flex: 1
+        color: #fff
+
+.contenido-contacto
+        p
+                font-size: 2rem
+
+//Seccion inferior
+
+.seccion-inferior
+        display: flex
+        justify-content: space-between
+
+.seccion-inferior .blog
+        flex-basis: 60%
+
+.seccion-inferior 
+        .testimoniales
+                flex-basis: calc( 40% - 2rem )
+
+.entrada-blog
+        display: flex
+        justify-content: space-between
+        margin-bottom: 2rem
+
+.entrada-blog:last-of-type
+                margin-bottom: 0
+
+.entrada-blog
+        .imagen
+                flex-basis: 40%
+
+
+.entrada-blog
+        .texto-entrada
+                flex-basis: calc( 60% - 3rem )
+.texto-entrada
+        h4
+                margin: 0
+                line-height: 1.4
+        a
+                color: #000000
+                text-decoration: none
+
+.texto-entrada
+        h4::after
+                content: ''
+                display: block
+                width: 15rem
+                height: 1rem
+                background-color: $colorPrimario
+                margin-top: 1rem
+
+.texto-entrada
+        span
+                color: $colorSecundario
+                
+
+// Testimoniales
+
+.testimonial
+        background-color: $colorPrimario
+        font-size: 2.4rem
+        padding: 2rem
+        color: #fff
+        border-bottom-left-radius: 10rem
+        border-top-right-radius: 2rem
+        p
+                text-align: right
+        blockquote::before
+                content: ''
+                background-image: url(../img/comilla.svg)
+                width: 4rem
+                height: 4rem
+                position: absolute
+                left: -2rem
+
+.testimonial
+        blockquote
+                position: relative
+                padding-left: 5rem
+                font-weight: 300

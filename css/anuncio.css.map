@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,AAAC,CACX,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC9B,WAAW,CAAE,MAAM,CAAG",
+    "sources": [
+        "../anuncio.sass"
+    ],
+    "names": [],
+    "file": "anuncio.css"
+}
